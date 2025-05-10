@@ -1,8 +1,8 @@
 # Define the full path to your .rds file
-rds_file_path <- "C:/Users/Kostas/Desktop/bup/python/iwmi/csv/hydroshed_wgs84_month75.rds"
+rds_file_path <- "/.rds"
 
 # Define the output CSV file path
-output_csv_path <- "C:/Users/Kostas/Desktop/bup/python/iwmi/csv/output.csv"
+output_csv_path <- " /.csv"
 
 # Check if the .rds file exists at the specified path
 if (!file.exists(rds_file_path)) {
